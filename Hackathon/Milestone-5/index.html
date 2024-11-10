@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder </title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <h1>Shareable Resume Builder</h1>
+<form id="Resume-form">
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="username">Username</label>
+        <input type="text" id="username" name="name" required><br>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required><br>
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" required><br>
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob" name="dob" required><br>
+        <label for="address">Address</label>
+        <textarea id="address" name="address" required></textarea><br>
+        <label for="gender">Gender</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other" required>
+        <label for="other">Other</label><br>
+    </fieldset>
+    <fieldset>
+        <legend>Education</legend>
+        <label for="education">Education</label>
+        <textarea id="education" name="education" rows="4" required></textarea><br>
+    </fieldset>
+    <fieldset>
+        <legend>Experience</legend>
+        <label for="Experience">Experience</label>
+        <textarea id="Experience" name="Experience" rows="4" required></textarea><br>
+    </fieldset>
+    <fieldset>
+        <legend>Skills</legend>
+        <label for="skills">Skills</label>
+        <textarea id="skills" name="skills" rows="4" required></textarea><br>
+    </fieldset>
+    <button type="submit" ><b>Generate Resume</b></button>
+</form>
+
+<div id="resume-display" contenteditable="true"></div>
+<br>
+<div id="shareable-link-container" style="display: none;">
+    <h2>Shareable Link </h2>
+    <p> Unique link to view or edit your resume:</p>
+    <a href="#" id="shareable-link" target="_blank"></a>
+    <br>
+    <button id="download-PDF"><b>Download as PDF</b></button>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>

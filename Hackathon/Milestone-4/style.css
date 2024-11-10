@@ -1,0 +1,102 @@
+body
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: rgb(243, 239, 235);
+
+}
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: rgb(61, 11, 26);
+}
+form
+{
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(222, 219, 215);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(39, 12, 12, 0.5);
+}
+fieldset
+{
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8opx;
+    
+    background-color: rgb(243, 239, 235);
+    border: 2px solid rgba(39, 12, 12, 0.5);
+    color: rgb(15, 20, 48);
+
+}
+legend
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(14, 31, 85);
+    text-align: left;
+}
+
+label
+{
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(13, 13, 14);
+}
+input,textarea{
+width: calc(100%-1px);
+    padding: 10px;
+    border: 1px solid rgba(39, 12, 12, 0.5);
+    border-radius: 5px;
+margin-top: auto;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+
+}
+button{
+    padding: 10px 20px;
+    background-color: rgb(14, 31, 85);
+    color: rgb(243, 239, 235);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px rgba(39, 12, 12, 0.5);
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
+
+
+
+}
+button:hover
+{
+    background-color: rgb(39, 12, 12);
+    color: rgb(235, 219, 203);
+    box-shadow: 0 0 10px rgba(39, 12, 12, 0.8);
+ 
+}
+#resume-display{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border:  2px slategrey;
+    background-color: rgb(117, 6, 6);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(39, 12, 12, 0.5);
+    background-color: rgb(181, 240, 196);
+    outline: none;
+}
+ #resume-display h2{
+    color: rgb(13, 2, 39);
+ }
